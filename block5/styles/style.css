@@ -104,7 +104,6 @@ img {
     width: 133px;
     height: 24px;
     display: flex;
-    justify-content: space-around;
     align-content: center;
     margin-left: 31px;
     margin-top: 24px;
@@ -118,9 +117,12 @@ img {
     font-family: 'TTLakes-medium';
     font-weight: 500;
     font-style: normal;
+    margin-left: 16px;
 }
 
-
+.button__image--rotate {
+    transform: rotate(180deg);
+}
 
 
 
